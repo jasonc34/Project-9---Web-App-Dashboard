@@ -1,0 +1,56 @@
+/*************************************************
+Main CSS Layout
+*************************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+
+body  {
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.font {
+  font-weight: 100;
+}
+
+.flex {
+  display: flex;
+}
+
+
+.justify  {
+  justify-content: space-between;
+}
+
+.main_body  {
+  margin-left: 80px;
+  ul  {
+  list-style: none;
+  }
+}
+
+.flex_col {
+  flex-direction: column;
+}
+
+h3  {
+  color: #333;
+  font-weight: 200;
+  margin-left: 20px;
+}
+
+button:hover  {
+  cursor: pointer;
+}
+
+

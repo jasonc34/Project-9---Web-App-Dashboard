@@ -1,0 +1,92 @@
+/*******************************************
+Layout and Style of First section 
+of the main page
+*******************************************/
+.top_section{
+  height: 60px;
+}
+
+.section1 {
+  height: 60px;
+  align-items: center;
+  color: #777;
+  background-color: #eee;
+}
+
+
+.container_dash {
+  width: 10%;
+  background-color: #fff;
+  margin: 0 auto;
+  height: 60px;
+  min-width: 140px;
+}
+
+.dash {
+  background-color: #fff;
+  margin: auto;
+  font-size: 1.4em;
+  color: #777;
+}
+
+.container_search {
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  border-bottom: solid 1.5px #999;
+  border-left: solid 1.5px #999;
+  justify-content: flex-end;
+  background: #eee;
+}
+
+.search {
+  border: solid 1px #333;
+  border-radius: 5px;
+  background-color: #fff;
+  background-image: url('../images/mg.png');
+  background-size: 25px;
+  background-position: 98% 50%;
+  background-repeat: no-repeat;
+  padding: 0 5px;
+  p {
+    align-item: flex-end;
+  }
+  
+ }
+#search-form {
+  text-align: center;
+}
+
+.searchbox  {
+  min-width: 370px;
+  height: 40px;
+  font-size: 16px;
+  margin: 10px 25px;
+ @media screen and (max-width: 950px) {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

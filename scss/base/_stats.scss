@@ -1,0 +1,50 @@
+
+
+.stats  {
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20px;
+  li  {
+    background-color: #eee;
+    height: 100px;
+    width: 30%;
+    margin: auto;
+  }
+}
+
+#google,
+#twitter,
+#facebook {
+  width: 55px;
+  height: 55px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #8484e1;
+  margin: 25px;
+}
+
+#twitter  {
+  background-size: 200px;
+  background-color: #8484e1;
+}
+
+
+
+
+.social_name  {
+  color: #8484e1;
+  margin: 20px 0 0 0;
+}
+
+.number {
+  color: #888;
+  font-size: 2.7em;
+  font-weight: 100;
+  margin: 0;
+}
+
+
+
+
+
+

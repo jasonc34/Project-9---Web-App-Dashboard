@@ -1,0 +1,117 @@
+/*******************************************
+Layout and Style of the Horizontial Header
+*******************************************/
+
+header  {
+  background-color: #8484e1;  
+  height: 75px;
+}
+
+.nav1,
+.nav2 {
+  justify-content: space-between;
+  list-style: none;
+  
+}
+
+.nav1  {
+  height: 75px;
+  width: 85%;
+  margin: auto;
+  padding-left: 15px;
+  li  {
+    margin: auto 0;
+    font-size: 1.3em;
+  }
+  @media screen and (max-width: 950px)  {
+    border-right: none;
+  }
+}
+
+.nav2 {
+  min-width: 110px;
+  margin: auto;
+  padding-left: 15px;
+  border-left: solid 1px #666;
+  justify-content: space-around;
+  li  {
+    font-size: .9em;
+    font-weight: 100;
+    padding: 10px;
+    margin: auto 0;
+  }
+}
+
+.nav1 li,
+.nav2 li  {
+  color: #fff;
+}
+
+#profile_pic  {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  @media screen and (max-width: 950px)  {
+    display: none;
+  }
+}
+
+#bell {
+  width: 19px;
+  position: relative;
+  @media screen and (max-width: 950px)  {
+    display: none;
+  }
+}
+
+.dot  {
+  background-color: #66ff33;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 100;
+  margin-left: 15px;
+  top: 23px;
+  padding: 3px;
+    @media screen and (max-width: 950px)  {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 950px) {
+		#menu {
+			width: 2.7em;
+			display: block;
+      color: #fff;
+			background: #9898e6;
+			font-size: 1.5em;
+			text-align: center;
+      height: 75px;
+      padding-top: 16px;
+    	@media screen and (min-width: 950px) {
+		  #menu {
+			display: none;
+		}
+	}
+		}
+		#nav.js {
+			display: none;
+		}
+	}
+
+	@media screen and (min-width: 950px) {
+		#menu {
+			display: none;
+		}
+	}
+
+
+
+
+
+
+
+
+
